@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/app.js",
     "devbuild": "rimraf build && cross-env NODE_ENV=production webpack --env.sw=true",
-    "worker": "webpack-dev-server",
+    "dev": "webpack-dev-server",
     "lint": "eslint ./"
   },
   "author": "",
