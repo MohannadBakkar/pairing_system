@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-=======
-var port =  process.env.PORT || 3000
-var bodyParser = require('body-parser')
-var express = require('express')
-var db = require('./db/db.js')
-var app = express()
-app.use(function (req, res, next) {
-  // Allow the client's you wish to allow to connect
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8080')
-
-  // Request methods you wish to allow
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE')
->>>>>>> trying to deploy
-
 var port = process.env.PORT || 3000;
 var bodyParser = require('body-parser');
 var express = require('express');
